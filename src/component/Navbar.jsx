@@ -25,7 +25,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center flex-shrink-0 select-none">
             <img
-              src="/src/assets/images/IPH-logo.webp"
+              src="src/assets/images/IPH-logo.webp"
               alt="Site_Logo"
               className="h-10 sm:h-14 md:h-14 lg:h-16 w-auto object-contain"
             />
@@ -144,3 +144,4 @@ export default function Navbar() {
     </header>
   );
 }
+
