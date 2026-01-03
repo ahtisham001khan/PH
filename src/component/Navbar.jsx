@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import logo from "../assets/images/IPH-logo.webp";
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -24,11 +26,12 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center flex-shrink-0 select-none">
-            <img
-              src="src/assets/images/IPH-logo.webp"
-              alt="Site_Logo"
-              className="h-10 sm:h-14 md:h-14 lg:h-16 w-auto object-contain"
-            />
+    <img
+  src={logo}
+  alt="Site_Logo"
+  className="h-10 sm:h-14 md:h-14 lg:h-16 w-auto object-contain"
+/>
+        
           </Link>
 
           {/* Desktop Menu */}
@@ -144,4 +147,5 @@ export default function Navbar() {
     </header>
   );
 }
+
 
