@@ -1,5 +1,7 @@
 import courseBanner from "../assets/images/Footer-banner.webp";
 import foot1 from "../assets/images/foot-map.webp";
+import footLogo from "../assets/images/Foot-logo.webp";
+
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -21,7 +23,7 @@ const Footer = () => {
         <div className="flex lg:justify-between md:justify-between sm:justify-between justify-between items-center w-full flex-wrap">
           {/* Logo */}
           <img
-            src="src/assets/images/Foot-logo.webp"
+            src={footLogo}
             alt="Site Logo"
             className="w-32 sm:w-44 md:w-52 object-contain"
           />
