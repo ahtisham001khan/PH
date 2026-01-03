@@ -1,9 +1,15 @@
 import { useEffect, useState } from "react";
 import Button from "./Button";
+import banner1 from "../assets/images/IPH-Web-Banner-1.webp";
+import banner2 from "../assets/images/IPH-Web-Banner-2.webp";
+import banner3 from "../assets/images/IPH-Web-Banner-3.webp";
+import banner4 from "../assets/images/IPH-Web-Banner-4.webp";
+import banner5 from "../assets/images/IPH-Web-Banner-5.webp";
+import banner6 from "../assets/images/IPH-Web-Banner-6.webp";
 
 const slides = [
   {
-    image: "src/assets/images/IPH-Web-Banner-1.webp",
+    image:banner1 ,
     tagline: "Become an",
     title: (
       <>
@@ -14,7 +20,7 @@ const slides = [
       "IPH detailed course covers everything from listing optimization to advanced selling methods. Learn from industry experts to grow your Amazon business. Enroll now and begin your journey with Pixxelhouse!",
   },
   {
-    image: "src/assets/images/IPH-Web-Banner-2.webp",
+    image:banner2,
     tagline: "Develop Creativity with",
     title: (
       <>
@@ -25,7 +31,7 @@ const slides = [
       "IPH practical course covers every area of 3D modeling, rigging, and animation. Develop your creative ideas and gain knowledge from qualified professionals. Enroll today and start your animation journey with Pixxelhouse!",
   },
   {
-    image: "src/assets/images/IPH-Web-Banner-3.webp",
+    image: banner3,
     tagline: "Build Your Future in",
     title: (
       <>
@@ -36,7 +42,7 @@ const slides = [
       "IPH detailed course covers everything from basic HTML,CSS to advanced web development techniques. Learn from industry experts and build professional websites. Enroll now and start your web development career!",
   },
   {
-    image: "src/assets/images/IPH-Web-Banner-4.webp",
+    image: banner4,
     tagline: "Learn Advanced",
     title: (
       <>
@@ -47,7 +53,7 @@ const slides = [
       "Learn advanced SEO techniques with IPH course that covers keyword research, on-page optimization, and link building strategies. Become proficient in SEO analytics. Enroll today and start your marketing career with Pixxelhouse!",
   },
   {
-    image: "src/assets/images/IPH-Web-Banner-5.webp",
+    image:banner5,
     tagline: "Learn Effective",
     title: (
       <>
@@ -58,7 +64,7 @@ const slides = [
       "Become a marketing expert with an IPH-detailed course that covers SEO, SEM, social media marketing, and analytics. Learn from industry leaders and gain practical skills .Enroll today and start your career in digital marketing!",
   },
   {
-    image: "src/assets/images/IPH-Web-Banner-6.webp",
+    image:banner6,
     tagline: "Explore Creativity with",
     title: (
       <>
@@ -136,3 +142,4 @@ export default function Hero() {
     </section>
   );
 }
+
